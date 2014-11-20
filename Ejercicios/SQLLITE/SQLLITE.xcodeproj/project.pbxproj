@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA8A52F1983E280008163A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A52E1983E280008163A7 /* Foundation.framework */; };
+		ADA8A5311983E280008163A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A5301983E280008163A7 /* CoreGraphics.framework */; };
+		ADA8A5331983E280008163A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A5321983E280008163A7 /* UIKit.framework */; };
+		ADA8A5391983E280008163A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A5371983E280008163A7 /* InfoPlist.strings */; };
+		ADA8A53B1983E280008163A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8A53A1983E280008163A7 /* main.m */; };
+		ADA8A53F1983E280008163A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8A53E1983E280008163A7 /* AppDelegate.m */; };
+		ADA8A5421983E280008163A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A5401983E280008163A7 /* Main.storyboard */; };
+		ADA8A5451983E280008163A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8A5441983E280008163A7 /* ViewController.m */; };
+		ADA8A5471983E280008163A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A5461983E280008163A7 /* Images.xcassets */; };
+		ADA8A54E1983E280008163A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A54D1983E280008163A7 /* XCTest.framework */; };
+		ADA8A54F1983E280008163A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A52E1983E280008163A7 /* Foundation.framework */; };
+		ADA8A5501983E280008163A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A5321983E280008163A7 /* UIKit.framework */; };
+		ADA8A5581983E280008163A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADA8A5561983E280008163A7 /* InfoPlist.strings */; };
+		ADA8A55A1983E280008163A7 /* SQLLITETests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA8A5591983E280008163A7 /* SQLLITETests.m */; };
+		ADA8A5641983E2B2008163A7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8A5631983E2B2008163A7 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA8A5511983E280008163A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA8A5231983E280008163A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA8A52A1983E280008163A7;
+			remoteInfo = SQLLITE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA8A52B1983E280008163A7 /* SQLLITE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLLITE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA8A52E1983E280008163A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADA8A5301983E280008163A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADA8A5321983E280008163A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADA8A5361983E280008163A7 /* SQLLITE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLLITE-Info.plist"; sourceTree = "<group>"; };
+		ADA8A5381983E280008163A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADA8A53A1983E280008163A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA8A53C1983E280008163A7 /* SQLLITE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLLITE-Prefix.pch"; sourceTree = "<group>"; };
+		ADA8A53D1983E280008163A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADA8A53E1983E280008163A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADA8A5411983E280008163A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA8A5431983E280008163A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADA8A5441983E280008163A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADA8A5461983E280008163A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADA8A54C1983E280008163A7 /* SQLLITETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLLITETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA8A54D1983E280008163A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADA8A5551983E280008163A7 /* SQLLITETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLLITETests-Info.plist"; sourceTree = "<group>"; };
+		ADA8A5571983E280008163A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADA8A5591983E280008163A7 /* SQLLITETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLLITETests.m; sourceTree = "<group>"; };
+		ADA8A5631983E2B2008163A7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA8A5281983E280008163A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA8A5641983E2B2008163A7 /* libsqlite3.0.dylib in Frameworks */,
+				ADA8A5311983E280008163A7 /* CoreGraphics.framework in Frameworks */,
+				ADA8A5331983E280008163A7 /* UIKit.framework in Frameworks */,
+				ADA8A52F1983E280008163A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA8A5491983E280008163A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA8A54E1983E280008163A7 /* XCTest.framework in Frameworks */,
+				ADA8A5501983E280008163A7 /* UIKit.framework in Frameworks */,
+				ADA8A54F1983E280008163A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA8A5221983E280008163A7 = {
+			isa = PBXGroup;
+			children = (
+				ADA8A5341983E280008163A7 /* SQLLITE */,
+				ADA8A5531983E280008163A7 /* SQLLITETests */,
+				ADA8A52D1983E280008163A7 /* Frameworks */,
+				ADA8A52C1983E280008163A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA8A52C1983E280008163A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A52B1983E280008163A7 /* SQLLITE.app */,
+				ADA8A54C1983E280008163A7 /* SQLLITETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA8A52D1983E280008163A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A5631983E2B2008163A7 /* libsqlite3.0.dylib */,
+				ADA8A52E1983E280008163A7 /* Foundation.framework */,
+				ADA8A5301983E280008163A7 /* CoreGraphics.framework */,
+				ADA8A5321983E280008163A7 /* UIKit.framework */,
+				ADA8A54D1983E280008163A7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA8A5341983E280008163A7 /* SQLLITE */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A53D1983E280008163A7 /* AppDelegate.h */,
+				ADA8A53E1983E280008163A7 /* AppDelegate.m */,
+				ADA8A5401983E280008163A7 /* Main.storyboard */,
+				ADA8A5431983E280008163A7 /* ViewController.h */,
+				ADA8A5441983E280008163A7 /* ViewController.m */,
+				ADA8A5461983E280008163A7 /* Images.xcassets */,
+				ADA8A5351983E280008163A7 /* Supporting Files */,
+			);
+			path = SQLLITE;
+			sourceTree = "<group>";
+		};
+		ADA8A5351983E280008163A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A5361983E280008163A7 /* SQLLITE-Info.plist */,
+				ADA8A5371983E280008163A7 /* InfoPlist.strings */,
+				ADA8A53A1983E280008163A7 /* main.m */,
+				ADA8A53C1983E280008163A7 /* SQLLITE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADA8A5531983E280008163A7 /* SQLLITETests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A5591983E280008163A7 /* SQLLITETests.m */,
+				ADA8A5541983E280008163A7 /* Supporting Files */,
+			);
+			path = SQLLITETests;
+			sourceTree = "<group>";
+		};
+		ADA8A5541983E280008163A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8A5551983E280008163A7 /* SQLLITETests-Info.plist */,
+				ADA8A5561983E280008163A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA8A52A1983E280008163A7 /* SQLLITE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA8A55D1983E280008163A7 /* Build configuration list for PBXNativeTarget "SQLLITE" */;
+			buildPhases = (
+				ADA8A5271983E280008163A7 /* Sources */,
+				ADA8A5281983E280008163A7 /* Frameworks */,
+				ADA8A5291983E280008163A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLLITE;
+			productName = SQLLITE;
+			productReference = ADA8A52B1983E280008163A7 /* SQLLITE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA8A54B1983E280008163A7 /* SQLLITETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA8A5601983E280008163A7 /* Build configuration list for PBXNativeTarget "SQLLITETests" */;
+			buildPhases = (
+				ADA8A5481983E280008163A7 /* Sources */,
+				ADA8A5491983E280008163A7 /* Frameworks */,
+				ADA8A54A1983E280008163A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA8A5521983E280008163A7 /* PBXTargetDependency */,
+			);
+			name = SQLLITETests;
+			productName = SQLLITETests;
+			productReference = ADA8A54C1983E280008163A7 /* SQLLITETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA8A5231983E280008163A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cymetria;
+				TargetAttributes = {
+					ADA8A54B1983E280008163A7 = {
+						TestTargetID = ADA8A52A1983E280008163A7;
+					};
+				};
+			};
+			buildConfigurationList = ADA8A5261983E280008163A7 /* Build configuration list for PBXProject "SQLLITE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA8A5221983E280008163A7;
+			productRefGroup = ADA8A52C1983E280008163A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA8A52A1983E280008163A7 /* SQLLITE */,
+				ADA8A54B1983E280008163A7 /* SQLLITETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA8A5291983E280008163A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA8A5471983E280008163A7 /* Images.xcassets in Resources */,
+				ADA8A5391983E280008163A7 /* InfoPlist.strings in Resources */,
+				ADA8A5421983E280008163A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA8A54A1983E280008163A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA8A5581983E280008163A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA8A5271983E280008163A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA8A5451983E280008163A7 /* ViewController.m in Sources */,
+				ADA8A53F1983E280008163A7 /* AppDelegate.m in Sources */,
+				ADA8A53B1983E280008163A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA8A5481983E280008163A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA8A55A1983E280008163A7 /* SQLLITETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA8A5521983E280008163A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA8A52A1983E280008163A7 /* SQLLITE */;
+			targetProxy = ADA8A5511983E280008163A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA8A5371983E280008163A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA8A5381983E280008163A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADA8A5401983E280008163A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA8A5411983E280008163A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA8A5561983E280008163A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA8A5571983E280008163A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA8A55B1983E280008163A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADA8A55C1983E280008163A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA8A55E1983E280008163A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLLITE/SQLLITE-Prefix.pch";
+				INFOPLIST_FILE = "SQLLITE/SQLLITE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADA8A55F1983E280008163A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLLITE/SQLLITE-Prefix.pch";
+				INFOPLIST_FILE = "SQLLITE/SQLLITE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADA8A5611983E280008163A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLLITE.app/SQLLITE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLLITE/SQLLITE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SQLLITETests/SQLLITETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADA8A5621983E280008163A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLLITE.app/SQLLITE";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLLITE/SQLLITE-Prefix.pch";
+				INFOPLIST_FILE = "SQLLITETests/SQLLITETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA8A5261983E280008163A7 /* Build configuration list for PBXProject "SQLLITE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA8A55B1983E280008163A7 /* Debug */,
+				ADA8A55C1983E280008163A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA8A55D1983E280008163A7 /* Build configuration list for PBXNativeTarget "SQLLITE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA8A55E1983E280008163A7 /* Debug */,
+				ADA8A55F1983E280008163A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADA8A5601983E280008163A7 /* Build configuration list for PBXNativeTarget "SQLLITETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA8A5611983E280008163A7 /* Debug */,
+				ADA8A5621983E280008163A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA8A5231983E280008163A7 /* Project object */;
+}

@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBE21DF1970ABB40005D6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE21DE1970ABB40005D6AB /* Foundation.framework */; };
+		ADBE21E11970ABB40005D6AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE21E01970ABB40005D6AB /* CoreGraphics.framework */; };
+		ADBE21E31970ABB40005D6AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE21E21970ABB40005D6AB /* UIKit.framework */; };
+		ADBE21E91970ABB40005D6AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADBE21E71970ABB40005D6AB /* InfoPlist.strings */; };
+		ADBE21EB1970ABB40005D6AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE21EA1970ABB40005D6AB /* main.m */; };
+		ADBE21EF1970ABB40005D6AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE21EE1970ABB40005D6AB /* AppDelegate.m */; };
+		ADBE21F21970ABB40005D6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBE21F01970ABB40005D6AB /* Main.storyboard */; };
+		ADBE21F51970ABB50005D6AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE21F41970ABB50005D6AB /* ViewController.m */; };
+		ADBE21F71970ABB50005D6AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE21F61970ABB50005D6AB /* Images.xcassets */; };
+		ADBE21FE1970ABB50005D6AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE21FD1970ABB50005D6AB /* XCTest.framework */; };
+		ADBE21FF1970ABB50005D6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE21DE1970ABB40005D6AB /* Foundation.framework */; };
+		ADBE22001970ABB50005D6AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE21E21970ABB40005D6AB /* UIKit.framework */; };
+		ADBE22081970ABB50005D6AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADBE22061970ABB50005D6AB /* InfoPlist.strings */; };
+		ADBE220A1970ABB50005D6AB /* PickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE22091970ABB50005D6AB /* PickerTests.m */; };
+		ADBE22141970AD2C0005D6AB /* paises.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADBE22131970AD2C0005D6AB /* paises.plist */; };
+		ADBE22171970CBB60005D6AB /* NavegadorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBE22161970CBB60005D6AB /* NavegadorViewController.m */; };
+		ADBE22191970D8490005D6AB /* noticia.pdf in Resources */ = {isa = PBXBuildFile; fileRef = ADBE22181970D8490005D6AB /* noticia.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBE22011970ABB50005D6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBE21D31970ABB40005D6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBE21DA1970ABB40005D6AB;
+			remoteInfo = Picker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADBE21DB1970ABB40005D6AB /* Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE21DE1970ABB40005D6AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADBE21E01970ABB40005D6AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADBE21E21970ABB40005D6AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADBE21E61970ABB40005D6AB /* Picker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picker-Info.plist"; sourceTree = "<group>"; };
+		ADBE21E81970ABB40005D6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADBE21EA1970ABB40005D6AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADBE21EC1970ABB40005D6AB /* Picker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picker-Prefix.pch"; sourceTree = "<group>"; };
+		ADBE21ED1970ABB40005D6AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADBE21EE1970ABB40005D6AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADBE21F11970ABB40005D6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADBE21F31970ABB40005D6AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADBE21F41970ABB50005D6AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADBE21F61970ABB50005D6AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADBE21FC1970ABB50005D6AB /* PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE21FD1970ABB50005D6AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADBE22051970ABB50005D6AB /* PickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickerTests-Info.plist"; sourceTree = "<group>"; };
+		ADBE22071970ABB50005D6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADBE22091970ABB50005D6AB /* PickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerTests.m; sourceTree = "<group>"; };
+		ADBE22131970AD2C0005D6AB /* paises.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = paises.plist; sourceTree = "<group>"; };
+		ADBE22151970CBB60005D6AB /* NavegadorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavegadorViewController.h; sourceTree = "<group>"; };
+		ADBE22161970CBB60005D6AB /* NavegadorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavegadorViewController.m; sourceTree = "<group>"; };
+		ADBE22181970D8490005D6AB /* noticia.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = noticia.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBE21D81970ABB40005D6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE21E11970ABB40005D6AB /* CoreGraphics.framework in Frameworks */,
+				ADBE21E31970ABB40005D6AB /* UIKit.framework in Frameworks */,
+				ADBE21DF1970ABB40005D6AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE21F91970ABB50005D6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE21FE1970ABB50005D6AB /* XCTest.framework in Frameworks */,
+				ADBE22001970ABB50005D6AB /* UIKit.framework in Frameworks */,
+				ADBE21FF1970ABB50005D6AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBE21D21970ABB40005D6AB = {
+			isa = PBXGroup;
+			children = (
+				ADBE22181970D8490005D6AB /* noticia.pdf */,
+				ADBE22151970CBB60005D6AB /* NavegadorViewController.h */,
+				ADBE22161970CBB60005D6AB /* NavegadorViewController.m */,
+				ADBE22131970AD2C0005D6AB /* paises.plist */,
+				ADBE21E41970ABB40005D6AB /* Picker */,
+				ADBE22031970ABB50005D6AB /* PickerTests */,
+				ADBE21DD1970ABB40005D6AB /* Frameworks */,
+				ADBE21DC1970ABB40005D6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBE21DC1970ABB40005D6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE21DB1970ABB40005D6AB /* Picker.app */,
+				ADBE21FC1970ABB50005D6AB /* PickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBE21DD1970ABB40005D6AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE21DE1970ABB40005D6AB /* Foundation.framework */,
+				ADBE21E01970ABB40005D6AB /* CoreGraphics.framework */,
+				ADBE21E21970ABB40005D6AB /* UIKit.framework */,
+				ADBE21FD1970ABB50005D6AB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADBE21E41970ABB40005D6AB /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE21ED1970ABB40005D6AB /* AppDelegate.h */,
+				ADBE21EE1970ABB40005D6AB /* AppDelegate.m */,
+				ADBE21F01970ABB40005D6AB /* Main.storyboard */,
+				ADBE21F31970ABB40005D6AB /* ViewController.h */,
+				ADBE21F41970ABB50005D6AB /* ViewController.m */,
+				ADBE21F61970ABB50005D6AB /* Images.xcassets */,
+				ADBE21E51970ABB40005D6AB /* Supporting Files */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		ADBE21E51970ABB40005D6AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE21E61970ABB40005D6AB /* Picker-Info.plist */,
+				ADBE21E71970ABB40005D6AB /* InfoPlist.strings */,
+				ADBE21EA1970ABB40005D6AB /* main.m */,
+				ADBE21EC1970ABB40005D6AB /* Picker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADBE22031970ABB50005D6AB /* PickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE22091970ABB50005D6AB /* PickerTests.m */,
+				ADBE22041970ABB50005D6AB /* Supporting Files */,
+			);
+			path = PickerTests;
+			sourceTree = "<group>";
+		};
+		ADBE22041970ABB50005D6AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE22051970ABB50005D6AB /* PickerTests-Info.plist */,
+				ADBE22061970ABB50005D6AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBE21DA1970ABB40005D6AB /* Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE220D1970ABB50005D6AB /* Build configuration list for PBXNativeTarget "Picker" */;
+			buildPhases = (
+				ADBE21D71970ABB40005D6AB /* Sources */,
+				ADBE21D81970ABB40005D6AB /* Frameworks */,
+				ADBE21D91970ABB40005D6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picker;
+			productName = Picker;
+			productReference = ADBE21DB1970ABB40005D6AB /* Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADBE21FB1970ABB50005D6AB /* PickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE22101970ABB50005D6AB /* Build configuration list for PBXNativeTarget "PickerTests" */;
+			buildPhases = (
+				ADBE21F81970ABB50005D6AB /* Sources */,
+				ADBE21F91970ABB50005D6AB /* Frameworks */,
+				ADBE21FA1970ABB50005D6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBE22021970ABB50005D6AB /* PBXTargetDependency */,
+			);
+			name = PickerTests;
+			productName = PickerTests;
+			productReference = ADBE21FC1970ABB50005D6AB /* PickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBE21D31970ABB40005D6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Empresa;
+				TargetAttributes = {
+					ADBE21FB1970ABB50005D6AB = {
+						TestTargetID = ADBE21DA1970ABB40005D6AB;
+					};
+				};
+			};
+			buildConfigurationList = ADBE21D61970ABB40005D6AB /* Build configuration list for PBXProject "Picker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBE21D21970ABB40005D6AB;
+			productRefGroup = ADBE21DC1970ABB40005D6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBE21DA1970ABB40005D6AB /* Picker */,
+				ADBE21FB1970ABB50005D6AB /* PickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBE21D91970ABB40005D6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE21F71970ABB50005D6AB /* Images.xcassets in Resources */,
+				ADBE21E91970ABB40005D6AB /* InfoPlist.strings in Resources */,
+				ADBE21F21970ABB40005D6AB /* Main.storyboard in Resources */,
+				ADBE22141970AD2C0005D6AB /* paises.plist in Resources */,
+				ADBE22191970D8490005D6AB /* noticia.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE21FA1970ABB50005D6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE22081970ABB50005D6AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBE21D71970ABB40005D6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE21F51970ABB50005D6AB /* ViewController.m in Sources */,
+				ADBE21EF1970ABB40005D6AB /* AppDelegate.m in Sources */,
+				ADBE22171970CBB60005D6AB /* NavegadorViewController.m in Sources */,
+				ADBE21EB1970ABB40005D6AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE21F81970ABB50005D6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE220A1970ABB50005D6AB /* PickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADBE22021970ABB50005D6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBE21DA1970ABB40005D6AB /* Picker */;
+			targetProxy = ADBE22011970ABB50005D6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADBE21E71970ABB40005D6AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBE21E81970ABB40005D6AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADBE21F01970ABB40005D6AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBE21F11970ABB40005D6AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADBE22061970ABB50005D6AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADBE22071970ABB50005D6AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADBE220B1970ABB50005D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADBE220C1970ABB50005D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBE220E1970ABB50005D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picker/Picker-Prefix.pch";
+				INFOPLIST_FILE = "Picker/Picker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADBE220F1970ABB50005D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picker/Picker-Prefix.pch";
+				INFOPLIST_FILE = "Picker/Picker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADBE22111970ABB50005D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picker.app/Picker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picker/Picker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PickerTests/PickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADBE22121970ABB50005D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picker.app/Picker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picker/Picker-Prefix.pch";
+				INFOPLIST_FILE = "PickerTests/PickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBE21D61970ABB40005D6AB /* Build configuration list for PBXProject "Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE220B1970ABB50005D6AB /* Debug */,
+				ADBE220C1970ABB50005D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE220D1970ABB50005D6AB /* Build configuration list for PBXNativeTarget "Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE220E1970ABB50005D6AB /* Debug */,
+				ADBE220F1970ABB50005D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADBE22101970ABB50005D6AB /* Build configuration list for PBXNativeTarget "PickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE22111970ABB50005D6AB /* Debug */,
+				ADBE22121970ABB50005D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBE21D31970ABB40005D6AB /* Project object */;
+}
