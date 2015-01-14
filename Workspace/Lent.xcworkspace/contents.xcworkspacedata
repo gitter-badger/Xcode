@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CalculadoraMac/CalculadoraMac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HolaMundo/HolaMundo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PowerApp/PowerApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Biblioteca/Biblioteca.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Calculadora/Calculadora.xcodeproj">
+   </FileRef>
+</Workspace>
