@@ -122,6 +122,7 @@
 				4E74C2021A59EB8F00082037 /* Sources */,
 				4E74C2031A59EB8F00082037 /* Frameworks */,
 				4E74C2041A59EB8F00082037 /* Resources */,
+				4EDCDA571A753F940036B4BF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -206,6 +207,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EDCDA571A753F940036B4BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 6964c4e6ce850a80642d8167fa4ea7c4526f4eaf 893b0d3ce4eab1d84ba2bdf24e28767bd3ac5713f4db2e7913bf11ce9de9839d";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E74C2021A59EB8F00082037 /* Sources */ = {
@@ -405,6 +422,7 @@
 				4E74C2271A59EB9000082037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E74C2281A59EB9000082037 /* Build configuration list for PBXNativeTarget "HolaMundoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +431,7 @@
 				4E74C22A1A59EB9000082037 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

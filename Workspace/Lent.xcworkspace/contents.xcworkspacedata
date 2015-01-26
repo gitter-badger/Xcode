@@ -2,13 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CalculadoraMac/CalculadoraMac.xcodeproj">
+      location = "group:RostrosReco/RostrosReco.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:HolaMundo/HolaMundo.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PowerApp/PowerApp.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Biblioteca/Biblioteca.xcodeproj">
